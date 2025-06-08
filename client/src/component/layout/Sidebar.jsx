@@ -10,10 +10,9 @@ const Sidebar = () => {
           src="../../dist/img/logo-hp2.png"
           alt="AdminLTE Logo"
           className="brand-image"
-          style={{ opacity: ".8" }}
         />
-        <span className="brand-text pe-10 text-lg bg-gradient-to-r from-red-400 via-yellow-400 to-purple-600 bg-clip-text text-transparent uppercase">
-        Patient Management
+        <span className="brand-text  text-lg bg-gradient-to-r from-red-400 via-yellow-400 to-purple-600 bg-clip-text text-transparent uppercase">
+          Patient Manage
         </span>
       </a>
 
@@ -47,7 +46,6 @@ const Sidebar = () => {
             data-accordion="false"
           >
             {/* Orders Menu */}
-          
 
             {/* Products Menu */}
             <li className="nav-item">

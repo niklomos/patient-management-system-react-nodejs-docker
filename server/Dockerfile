@@ -16,4 +16,4 @@ COPY . .
 EXPOSE 3000
 
 # เรียกใช้งานแอปพลิเคชันเมื่อ container เริ่มทำงาน
-CMD ["node", "app.js"]
+CMD ["npm", "start"]

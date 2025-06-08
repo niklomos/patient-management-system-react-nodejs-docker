@@ -1,6 +1,7 @@
 version: '3'
 services:
   node-server:
+    container_name: nodejs
     build: .
     ports:
       - "3000:3000"
